@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 
+a, a:hover {
+  text-decoration: none;
+}
+
 /*Header Styles*/
 
 .logo-img {
@@ -13,6 +17,16 @@
   font-family: "Satisfy", cursive;
   color: #f2767e; /*Ornageish logo color*/
 
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.logo-wrapper {
+  width: 50%;
 }
 
 /*Jumbotron styles*/
@@ -43,4 +57,44 @@
 
 .nav-stacked > li {
   font-weight: 700;
+}
+
+/* Footie Styles */
+
+footer {
+ height: 150px;
+ background-color: #333;
+ padding: 16px;
+}
+
+footer a, footer a:hover {
+  color: #bfc0c1;
+
+}
+
+footer img.logo-img {
+  width: 90px;
+}
+
+.address-border {
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+address {
+  color: #bfc0c1;
+}
+
+
+address>a:hover {
+  color: #bfc0c1;
+  text-decoration: none;
+}
+
+.icons>a {
+  display: block;
+}
+
+.copyright {
+  color: #505050;
 }
